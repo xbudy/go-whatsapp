@@ -7,14 +7,14 @@ This package is not being actively maintained currently and will soon be unusuab
 
 ## Installation
 ```sh
-go get github.com/Rhymen/go-whatsapp
+go get go-whatsapp
 ```
 
 ## Usage
 ### Creating a connection
 ```go
 import (
-    whatsapp "github.com/Rhymen/go-whatsapp"
+    whatsapp "go-whatsapp"
 )
 
 wac, err := whatsapp.NewConn(20 * time.Second)

@@ -9,10 +9,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Rhymen/go-whatsapp/binary/proto"
+	"go-whatsapp/binary/proto"
+
+	"go-whatsapp"
 
 	qrcodeTerminal "github.com/Baozisoftware/qrcode-terminal-go"
-	"github.com/Rhymen/go-whatsapp"
 )
 
 type waHandler struct {
